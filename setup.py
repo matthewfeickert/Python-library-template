@@ -6,7 +6,15 @@ with open(path.join(this_directory, "README.md"), encoding="utf-8") as readme_md
     long_description = readme_md.read()
 
 extras_require = {
-    "develop": ["check-manifest", "pyflakes", "pre-commit", "black", "twine",],
+    "develop": [
+        "check-manifest",
+        "pytest~=5.2",
+        "pytest-cov~=2.8",
+        "pyflakes",
+        "pre-commit",
+        "black",
+        "twine",
+    ],
 }
 extras_require["complete"] = sorted(set(sum(extras_require.values(), [])))
 
