@@ -10,6 +10,8 @@ extras_require = {
         "check-manifest",
         "pytest~=5.2",
         "pytest-cov~=2.8",
+        "pytest-console-scripts~=0.2",
+        "bumpversion~=0.5",
         "pyflakes",
         "pre-commit",
         "black",
@@ -38,7 +40,8 @@ setup(
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     include_package_data=True,
-    install_requires=["numpy~=1.16"],  # NumPy is used here only as an example
+    install_requires=["click>=6.0"],
     python_requires=">=3.6",
     extras_require=extras_require,
+    entry_points={"console_scripts": ["libname=libname.commandline:libname"]},
 )
