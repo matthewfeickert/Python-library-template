@@ -22,7 +22,7 @@ The template library is [`libname`](https://github.com/matthewfeickert/Python-li
 1. Edit `setup.py` to reflect all of your library's needs and requirements
 2. Edit the paths to badges in the `README` to match your library's locations
    - Change `libame` to your library's name
-      - Suggestion: Use `git grep -l "libname" | xargs sed -i "s/libname/<your-lirary-name>/g"`
+      - Suggestion: Use `git grep -l "libname" | xargs sed -i "s/libname/<your-library-name>/g"`
    - Change `matthewfeickert` to your username or org name on GitHub
    - Change `python-library-template` to your project name on GitHub (probably the same as the library name)
 3. Replace the rest of the `README` contents with your information
