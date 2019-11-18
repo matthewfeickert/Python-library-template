@@ -42,9 +42,11 @@ bumpversion patch
 
 which given the [`.bumpversion.cfg`](https://github.com/matthewfeickert/Python-library-template/blob/master/.bumpversion.cfg) makes a new commit that increments the release version by one patch release.
 
-## why is a `src` directory structure used?
+## Why is a `src` directory structure used?
 
 ## Why is there a `MANIFEST.in`?
+
+## Why is there a `setup.cfg` and a `pyproject.toml`?
 
 ## Why is there a `.pre-commit-config.yaml`?
 
