@@ -53,6 +53,6 @@ which given the [`.bumpversion.cfg`](https://github.com/matthewfeickert/Python-l
 ## Why is `python -m pip` used?
 
 In short, `python -m pip` is used throughout this repo instead of just `pip` (even when it doesn't really need to be) to adhere to best practices of assuring that the right Python interpreter's `pip` is being used.
-There is a [fantastic writeup on this][why-you-should-use-python-m-pip] by Brett Cannon ([@brettcannon](https://github.com/brettcannon)) that you should read.
+There is a [fantastic writeup on this][why-you-should-use-python-m-pip] by [Brett Cannon](https://github.com/brettcannon) that you should read.
 
 [why-you-should-use-python-m-pip]: https://snarky.ca/why-you-should-use-python-m-pip/
