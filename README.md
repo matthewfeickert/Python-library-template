@@ -44,6 +44,8 @@ which given the [`.bumpversion.cfg`](https://github.com/matthewfeickert/Python-l
 
 ## Why is a `src` directory structure used?
 
+Anthony Sottile gives a nice explanation in [this YouTube video](https://youtu.be/sW1qUZ_nSXk).
+
 ## Why is there a `MANIFEST.in`?
 
 ## Why is there a `setup.cfg` and a `pyproject.toml`?
